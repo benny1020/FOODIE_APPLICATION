@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+
+
+        <Button
+            android:id="@+id/breakfast"
+            android:layout_width="68dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:text="아침"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/lunch"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:text="점심"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/dinner"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:text="저녁"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/exercise"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:text="운동계산"
+            android:textSize="12sp" />
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:text="초기화"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="422dp"
+        android:layout_weight="2"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:padding="10dp"></ListView>
+
+
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="64dp" />
+
+    <TextView
+        android:id="@+id/recommand"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="64dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        android:background="@drawable/layoutcolor"
+
+        >
+        <ImageButton
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/tab_info"
+            android:src="@drawable/baseline_accessibility_24"
+            android:background="#FFFFFF"
+            android:text="Info"
+            />
+        <ImageButton
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/tab_food"
+            android:src="@drawable/baseline_restaurant_menu_24"
+            android:background="#FFFFFF"
+            />
+        <ImageButton
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/tab_ingrediants"
+            android:src="@drawable/baseline_kitchen_24"
+            android:background="#FFFFFF"
+            />
+        <ImageButton
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/tab_camera"
+            android:src="@drawable/baseline_photo_camera_24"
+            android:background="#FFFFFF"
+            />
+        <ImageButton
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/tab_exercise"
+            android:src="@drawable/baseline_directions_run_24"
+            android:background="#FFFFFF"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

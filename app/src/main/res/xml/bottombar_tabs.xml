@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <tabs>
+        <tab
+            id="@+id/tab_info"
+            icon="@drawable/baseline_accessibility_24"
+            inActiveColor="#888888"
+            activeColor="#888888"
+            title="info"/>
+        <tab
+            id="@+id/tab_food"
+            icon="@drawable/baseline_restaurant_menu_24"
+            inActiveColor="#888888"
+            activeColor="#888888"
+            title="food"/>
+        <tab
+            id="@+id/tab_ingrediants"
+            icon="@drawable/baseline_kitchen_24"
+            inActiveColor="#888888"
+            activeColor="#888888"
+            title="ingrediants"/>
+        <tab
+            id="@+id/tab_camera"
+            icon="@drawable/baseline_photo_camera_24"
+            inActiveColor="#888888"
+            activeColor="#888888"
+            title="camera"/>
+        <tab
+            id="@+id/tab_exercise"
+            icon="@drawable/baseline_directions_run_24"
+            inActiveColor="#888888"
+            activeColor="#888888"
+            title="exercise"/>
+    </tabs>
+</PreferenceScreen>
